@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background: url('https://imgs.search.brave.com/31yiSbIPdWxdvhEIonSK3NJomjqEvnuAgn44z2myMro/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODQx/NDQ1MTg2L3Bob3Rv/L2hvdXJnbGFzcy1m/bG93LmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1TZTRzMTY0/RU8wam80ZGdwLVpY/VldtNHhFSE1GcjI2/SHQyVFQxMnVTRnkw/PQ');
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    margin-top: 20px; 
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.col {
+    margin-top: 50px; 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    background-color: rgba(144, 158, 214, 0.9);
+    border-color: transparent;
+    border-radius: 0px;
+    height: 60px;
+    box-shadow: 6px 6px black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    outline: none; 
+}
